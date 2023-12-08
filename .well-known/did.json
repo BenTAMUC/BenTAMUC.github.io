@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:BenTAMUC.github.io",
+  "id": "did:web:BenTAMUC.github.io:.well-known",
   "verificationMethod": [
     {
-      "id": "did:web:BenTAMUC.github.io#owner",
+      "id": "did:web:BenTAMUC.github.io:.well-known#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:BenTAMUC.github.io",
+      "controller": "did:web:BenTAMUC.github.io:.well-known",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:BenTAMUC.github.io#owner"
+    "did:web:BenTAMUC.github.io:.well-known#owner"
   ],
   "assertionMethod": [
-    "did:web:BenTAMUC.github.io#owner"
+    "did:web:BenTAMUC.github.io:.well-known#owner"
   ]
 }
